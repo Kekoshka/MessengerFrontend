@@ -1,5 +1,8 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,25 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MessengerWebAPIFrontend
+namespace MessengerWebAPIFrontend.Pages.Registration
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Registration.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Registration : Page
     {
-        MainWindow Main;
-        public MainWindow()
+        public Registration()
         {
             InitializeComponent();
-            Main = this;
-            OpenPage(new Pages.Registration.Registration());
         }
 
-        public void OpenPage(Page page)
+        private void Reg(object sender, RoutedEventArgs e)
         {
-            Main.Frame.Navigate(page);
-        }        
 
+        }
     }
 }
