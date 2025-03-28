@@ -15,11 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Authorization\" />
-    <Folder Include="Pages\Registration\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Images\burgerMenu.png" />
     <Resource Include="Images\pointsMenu.png" />
     <Resource Include="Images\send.png" />
